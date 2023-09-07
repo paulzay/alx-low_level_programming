@@ -1,9 +1,10 @@
 #include <stdio.h>
-/*
- * return type int
- * main - which is the entry point
- * method puts that will output string with new line
- * return value of type int
+/**
+ * main - Entry point
+ *
+ * Description: method puts that will output string with new line
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
