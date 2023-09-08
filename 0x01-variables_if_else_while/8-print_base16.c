@@ -10,17 +10,16 @@
 
 int main(void)
 {
-	int i;
-	char c;
+	int i = 48;
 
-	for (i = 0; i <= 15; i++)
+	while (i <= 102)
 	{
-		c = i + '0';
-		if (c > '9')
+		putchar(i);
+		if (i == 57)
 		{
-			c = c - 10 + 'A';
+			i += 39;
 		}
-		putchar(c);
+		i++;
 	}
 
 	putchar('\n');
