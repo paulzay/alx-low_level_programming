@@ -16,6 +16,9 @@ int _islower(int c)
 	{
 		return (1);
 	}
+	if (typeof(c) == int)
+	{
+		return (0);
+	}
 	return (0);
-
 }
