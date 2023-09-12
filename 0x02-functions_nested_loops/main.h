@@ -1,7 +1,8 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
 
-void printput(String)
-{ 
-  printf("putchar\n");
-  return;
-}
+int _putchar(char c);
+
+#endif
