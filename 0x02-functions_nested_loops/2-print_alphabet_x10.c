@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print a-z ten times
+ * print_alphabet_10x - print a-z ten times
 */
 
-void print_alphabet_x10(void)
+void print_alphabet_10x(void)
 {
 	int c;
 	int count;
