@@ -10,7 +10,8 @@
 
 int _islower(int c)
 {
-	if (c == toLower(c))
+
+	if (c == tolower(c))
 	{
 		return (1);
 	}
