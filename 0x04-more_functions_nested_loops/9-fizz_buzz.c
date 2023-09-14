@@ -27,5 +27,8 @@ int main(void)
 		else
 			printf("%d ", num);
 	}
+	
+	printf('\');
+
 	return (0);
 }
