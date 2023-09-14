@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * fizzbuzz - fn
+ * main - fn
  * Description: tba
  * Return: 0
 */
