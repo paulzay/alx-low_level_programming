@@ -25,7 +25,7 @@ int main(void)
 			printf("FizzBuzz");
 		}
 		else
-			printf("%d ", num);
+			printf("%d", num);
 
 		if (num != 100)
 		{
