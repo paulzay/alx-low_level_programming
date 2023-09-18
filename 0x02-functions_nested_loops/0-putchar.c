@@ -1,22 +1,33 @@
 #include "main.h"
 
 /**
- * main - entry point
- * description: tba
- * Return: Always Success (0)
+ * times_table - print mult table for 9
 */
 
-int main(void)
+void times_table(void)
 {
-	char str[] = "_putchar";
-	int c;
+	int i, j, k;
 
-	for (c = 0; c < 8; c++)
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar(str[c]);
+		_putchar(48);
+		for (j = 1; j <= 9; j++)
+		{
+			_putchar(',');
+			_putchar(' ');
+
+			k = i * j;
+
+			if (k <= 9)
+			{
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar((k / 10) + 48);
+			}
+			_putchar((k % 10) + 48);
+		}
+		_putchar('\n');
 	}
-
-	_putchar('\n');
-
-	return (0);
 }
