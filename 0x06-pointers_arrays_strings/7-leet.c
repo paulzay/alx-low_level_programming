@@ -6,10 +6,19 @@
  * Return: 0
 */
 
-char *leet(char *atr);
+char *leet(char *str)
 {
 	int i, j;
-	j = 0;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-	while
+	for (i = 0; *(str + i); i++)
+	{
+		for (j = 0; j <= 9; j++)
+		{
+			if (a[j] == str[i])
+				str[i] = b[j];
+		}
+	}
+	return (str);
 }
