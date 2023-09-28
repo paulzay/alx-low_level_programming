@@ -1,6 +1,10 @@
 #include "main.h"
 
 /**
+  * _pow_recursion - fn
+  *@x: input
+  *@y: input
+  *Return: int
 */
 
 int _pow_recursion(int x, int y)
