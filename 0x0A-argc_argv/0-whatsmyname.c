@@ -2,6 +2,10 @@
 #include <stdlib.h>
 
 /**
+ * main - fn
+ * @argc: no of arguments
+ * #argv: array
+ * Return: 0
 */
 
 int main(int argc, char __attribut__((unused)) *argv[])
