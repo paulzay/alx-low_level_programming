@@ -16,22 +16,19 @@ char *str_concat(char *s1, char *s2)
 	int lengths2 = 0;
 	char *output;
 
-	if (s1 != NULL)
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+
+	while (s1[lengths1] != '\0')
 	{
-		i = 0;
-		while (s1[lengths1] != '\0')
-		{
-			lengths1++;
-		}
+		lengths1++;
 	}
 
-	if (s2 != NULL)
+	while (s2[lengths2] != '\0')
 	{
-		j = 0;
-		while (s2[lengths2] != '\0')
-		{
-			lengths2++;
-		}
+		lengths2++;
 	}
 
 	output = malloc((lengths1 * sizeof(char)) + (lengths2 + 1) * sizeof(char));
