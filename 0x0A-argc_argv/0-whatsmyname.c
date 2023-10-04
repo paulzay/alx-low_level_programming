@@ -4,11 +4,11 @@
 /**
  * main - fn
  * @argc: no of arguments
- * #argv: array
+ * @argv: array
  * Return: 0
 */
 
-int main(int argc, char __attribut__((unused)) *argv[])
+int main(int argc, char __attribut__((unused)) * argv[])
 {
 	int i, j;
 
@@ -20,5 +20,5 @@ int main(int argc, char __attribut__((unused)) *argv[])
 		i++;
 	}
 	printf("%d\n", j);
-	return 0;
+	return (0);
 }
