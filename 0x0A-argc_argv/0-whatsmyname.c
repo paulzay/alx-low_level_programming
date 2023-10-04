@@ -8,17 +8,12 @@
  * Return: 0
 */
 
-int main(int argc, char __attribut__((unused)) * argv[])
+int main(int __attribute__((unused)) argc, char *argv[])
 {
-	int i, j;
+	int i;
 
 	i = 0;
 
-	while (i < argv)
-	{
-		j = i;
-		i++;
-	}
-	printf("%d\n", j);
+	printf("%s\n", argv[i]);
 	return (0);
 }
