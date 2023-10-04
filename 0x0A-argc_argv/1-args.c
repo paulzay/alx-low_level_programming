@@ -8,13 +8,13 @@
  * Return: 0
 */
 
-int main(int argc, char __attribut__((unused)) * argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
 	int i, j;
 
 	i = 0;
 
-	while (i < argv)
+	while (i < argc)
 	{
 		j = i;
 		i++;
