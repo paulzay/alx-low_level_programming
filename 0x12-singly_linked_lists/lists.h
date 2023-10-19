@@ -4,6 +4,8 @@
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 
 /**
  * struct l_list - linked list node

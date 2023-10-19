@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <string.h>
 /**
  * add_node - pointer to function that
  * add node
