@@ -16,7 +16,7 @@ struct l_list
 {
 	char *str;
 	unsigned int len;
-	struct list *next;
+	struct l_list *next;
 };
 
 typedef struct l_list list_t;
