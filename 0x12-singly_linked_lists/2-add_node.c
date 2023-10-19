@@ -22,7 +22,7 @@ list_t *add_node(list_t **head, const char *str)
 
 	if (first_node == NULL)
 		return (NULL);
-	
+
 	if (*head == NULL)
 	{
 		(*first_node).next = NULL;
