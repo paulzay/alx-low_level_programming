@@ -1,5 +1,11 @@
 #include "lists.h"
 
+/**
+ * print_listint - function to count nodes
+ * @h: the head of the list
+ * Return: number of nodes
+*/
+
 size_t print_listint(const listint_t *h)
 {
 	int nodecount = 1;
@@ -24,6 +30,5 @@ size_t print_listint(const listint_t *h)
 		h = h->next; /* move to next node */
 	}
 	printf("%d\n", h->n);
-
 	return (nodecount);
 }
