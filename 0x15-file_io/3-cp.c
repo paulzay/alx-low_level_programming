@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
 	char buffer[BUFFER_SIZE];
 	int bytes_read, bytes_written;
 
-	if (argc < 3)
+	if (argc != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file from_from file_to");
 		exit(97);
