@@ -1,14 +1,6 @@
 CC = gcc
-SRC = .c
-OBJ = .o
+SRC = (wildcard *.c)
+OBJ = (wildcard *.c)
 NAME = school
-all: main.o ${NAME}
-
-main.o: main.c
-	${CC} -c -o main.o main.c
-
-${NAME}: school.c
-	${CC} -c -o school.o school.c
-
-clean:
-	rm *.o
+all : $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
